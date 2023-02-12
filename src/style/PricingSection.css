@@ -1,0 +1,48 @@
+.container {
+  height: fit-content
+}
+.card {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+.card-header{
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+.price-header {
+  font-weight: bold;
+}
+.price-symbol {
+  display: inline-block;
+  font-size: 15px;
+  color: #2490ef;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+.price-number {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2490ef;
+}
+.title-pricing {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #537FE7;
+}
