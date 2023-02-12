@@ -1,0 +1,22 @@
+.container-about-us {
+  height: 100%;
+}
+.image-about-us img{
+  width: 80%;
+}
+.title-about-us {
+  color: #537FE7;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.body-about-us {
+  color: #181823;
+  font-size: 17px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .image-about-us img{
+    display: none;
+  }
+}
